@@ -1,0 +1,47 @@
+html {
+  scroll-behavior: smooth;
+}
+.page_container {
+  min-height: calc(100dvh - 8.55rem);
+}
+.body_bg_color {
+  background-color: #f1f3f6;
+}
+.mi_container {
+  display: block;
+  width: 100%;
+  max-width: 1680px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.null_space {
+  height: var(--header_height);
+}
+
+.Background_overlay {
+  width: 100%;
+  height: 100dvh;
+  background-color: rgba(17, 17, 17, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+@media screen and (max-width: 586px) {
+  .mi_container {
+    display: block;
+    width: 100%;
+    max-width: 77rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  .null_space {
+    height: var(--header_mobile_height);
+  }
+}
+
+.text-caps {
+  text-transform: capitalize;
+}

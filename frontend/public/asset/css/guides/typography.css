@@ -1,0 +1,40 @@
+.mi_title {
+  font-weight: 600;
+  font-size: calc(1.375rem + 1.5vw);
+}
+.mi_heading {
+  font-size: calc(1.25rem + 1.25vw);
+  font-weight: 600;
+}
+.mi_headingLite {
+  font-size: calc(1.125rem + 1.125vw);
+  font-weight: 600;
+}
+.mi_miniheading {
+  font-size: 1.5rem;
+}
+.mi_subheading {
+  font-size: 1.25rem;
+}
+.mi_subheadingLite {
+  font-size: 1.125rem;
+}
+.mi_body {
+  font-size: 1rem;
+}
+.mi_note {
+  font-size: 0.875rem;
+}
+
+/* Common Typo */
+.site_body_ts {
+  color: var(--font_slate);
+  line-height: 2rem;
+}
+
+@media screen and (max-width: 586px) {
+  .site_body_ts {
+    color: var(--font_slate);
+    line-height: 1.85rem;
+  }
+}

@@ -1,0 +1,44 @@
+.mi_input_space {
+  width: 100%;
+  padding: 0.25rem 1rem;
+  border: 1px solid #ddd;
+  background: transparent;
+}
+.mi_input_space.error {
+  border: 1px solid rgb(255, 138, 138);
+}
+.mi_input_field > input {
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 0.875rem;
+  color: #111;
+  font-weight: 500 !important;
+  padding-bottom: 0.25rem;
+}
+
+.mi_input_label > span {
+  font-size: 0.725rem;
+}
+
+.mi_input_label.error > span {
+  color: red;
+}
+
+.mi_input_field.password__area {
+  position: relative;
+}
+.mi_input_field.password__area > input {
+  padding-right: 2rem;
+}
+.show__password_wrap {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  cursor: pointer;
+}
+
+.show__password_wrap > i {
+  font-size: 1.125rem;
+}

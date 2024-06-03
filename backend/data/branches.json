@@ -1,0 +1,11 @@
+[
+    {
+        "name" : "Adayar",
+        "address" : "No 1, Street",
+        "p_mob" : 9000552000,
+        "s_mob" : 9000552000,
+        "email" : "adayar@gmail.com",
+        "stateId" : 24,
+        "states" : true
+    }
+]

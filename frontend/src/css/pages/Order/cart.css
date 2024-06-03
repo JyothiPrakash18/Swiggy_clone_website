@@ -1,0 +1,104 @@
+.product_carting_wrapper {
+  padding: 1rem 0.8rem;
+  background-color: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 0.25rem;
+}
+.item_header {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+.header_icon {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 0.25rem;
+  background-color: #ddd;
+}
+.item_list {
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  border-bottom: 1px solid #ddd;
+}
+.item_wrapper {
+  display: grid;
+  grid-template-columns: 2fr 0.5fr;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.item_detail {
+  display: grid;
+  grid-template-columns: 2fr 1.5fr;
+  align-items: flex-start;
+  gap: 1.125rem;
+}
+.item_end{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.item_name_ts {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: var(--font_dark);
+}
+.item_price_ts {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--font_dark);
+}
+.counter_btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.2rem;
+  border: 1px solid #ddd;
+}
+.counter_rate {
+  font-size: 1rem;
+  color: #60b246;
+  cursor: pointer;
+}
+.counter_value {
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: #60b246;
+}
+
+.bill_area {
+  padding: 1rem 0 1.5rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+.billing_heading_ts {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--font_black);
+}
+.bill_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.65rem;
+}
+.bill_body_ts {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: var(--font_dark);
+}
+.total_area {
+  border-top: 2px solid #333;
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+}
+.total_body_ts {
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--font_black);
+}

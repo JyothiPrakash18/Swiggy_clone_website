@@ -1,0 +1,108 @@
+.ErrorPage__section {
+  width: 100%;
+}
+.ErrorPage__layout {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.ErrorPage__content {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-inline: 4rem;
+}
+.ErrorPage__text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: start;
+  font-family: var(--theme_font_family);
+  margin-left: 2rem;
+}
+.ErrorPage__title_fs {
+  font-size: 3rem;
+  color: black;
+  font-weight: 800;
+}
+.ErrorPage__subtitle_fs {
+  font-size: 2rem;
+  color: black;
+  font-weight: 400;
+}
+.ErrorPage__description {
+  font-size: var(--subheading_fs);
+  line-height: 1.5rem;
+  color: gray;
+  max-width: 20rem;
+}
+.ErrorPage__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  outline: none;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  border: none;
+  font-size: 1rem;
+  line-height: 1.125rem;
+  padding: 0.8rem 1.5rem;
+  background-color: rgb(45, 131, 252) !important;
+  border: var(--btn_border_width) solid rgb(45, 131, 252) !important;
+  color: #fff !important;
+}
+.ErrorPage__btn:hover {
+  background-color: rgb(31, 114, 229) !important;
+  border: var(--btn_border_width) solid rgb(31, 114, 229) !important;
+  color: #fff !important;
+}
+.ErrorPage__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.ErrorPage__image img {
+  height: 35rem;
+}
+
+.error_link > span {
+  margin-top: 3px;
+}
+
+@media screen and (max-width: 1020px) {
+  .ErrorPage__content {
+    padding-inline: 2rem;
+  }
+  .ErrorPage__title_fs {
+    font-size: 2.5rem;
+  }
+  .ErrorPage__subtitle_fs {
+    font-size: 1.6rem;
+  }
+  .ErrorPage__description {
+    font-size: 0.9rem;
+  }
+  .ErrorPage__image img {
+    height: 30rem;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .ErrorPage__layout {
+    padding-block: 4rem;
+  }
+  .ErrorPage__content {
+    grid-template-columns: 1fr;
+    padding-inline: initial;
+  }
+  .ErrorPage__text {
+    margin-left: 1rem;
+  }
+}

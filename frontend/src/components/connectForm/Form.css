@@ -1,0 +1,72 @@
+:root {
+  --profile_size: 8rem;
+}
+
+.input_space {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.input_space input {
+  width: calc(100% - 20px);
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  z-index: 1;
+}
+
+.input_space.error input.error-input {
+  border-color: red;
+}
+
+.input_space.error .error-message {
+  color: red;
+  font-size: 14px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+  width: calc(100% - 20px);
+  text-align: start;
+  z-index: 0;
+}
+
+.DisplayPicture__input {
+  cursor: pointer;
+  transform: scale(100%);
+  transition: all 0.2s ease-in-out;
+}
+.DisplayPicture__input.profile__holder {
+  width: var(--profile_size);
+  height: var(--profile_size);
+  border-radius: var(--profile_size);
+  background-color: rgb(221, 229, 229);
+}
+
+.add_new {
+  width: var(--profile_size);
+  height: var(--profile_size);
+  border-radius: var(--profile_size);
+  background-color: #f2f2f2;
+  border: 1px solid #e0e0e0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.addIcon {
+  font-size: 2rem;
+  color: #999;
+}
+
+.DisplayPicture__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile__actions {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-top: 1rem;
+}

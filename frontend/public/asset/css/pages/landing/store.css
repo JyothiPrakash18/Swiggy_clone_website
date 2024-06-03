@@ -1,0 +1,127 @@
+.shopie_card {
+  padding: 20px 20px 57px;
+  border: 1px solid #eee;
+  contain: content;
+  position: relative;
+  /* width: 20rem; */
+  background-color: #fff;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.shopie_card:hover {
+  border: 1px solid #ddd;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.shopie_content_wrap {
+  width: 100%;
+  position: relative;
+  padding-bottom: 1rem;
+}
+
+.shopie_image_banner {
+  background: #eef0f5;
+  width: 100%;
+  height: 160px;
+  position: relative;
+}
+
+.promotion_label {
+  position: absolute;
+  left: -8px;
+  top: 0;
+  background-color: #8a584b;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 5px 9px 4px;
+  max-width: 50%;
+  text-transform: uppercase;
+  border-color: #8a584b;
+}
+
+.promotion_label::before {
+  position: absolute;
+  bottom: -9px;
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-color: inherit;
+  left: 0;
+  border-width: 9px 0 0 9px;
+}
+
+._1kXWW {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.shopie_content {
+  margin-top: 14px;
+}
+
+.shop_title_ts {
+  font-size: 17px;
+  font-weight: 500;
+  word-break: break-word;
+}
+
+.shop_subtitle_ts {
+  color: #686b78;
+  font-size: 13px;
+  margin-top: 4px;
+}
+
+.shop_rating_cards {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 18px;
+  font-size: 12px;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  color: #535665;
+}
+
+.rating_card {
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #48c479;
+  color: #fff;
+  height: 20px;
+  width: 43px;
+  padding: 0 5px;
+  font-weight: 400;
+}
+
+.rating_ts {
+  font-size: 10px;
+  margin-right: 4px;
+  position: relative;
+  top: -1px;
+}
+
+.shopie_action {
+  color: #686b78;
+  font-size: 13px;
+  visibility: visible;
+  border-top: 1px solid #e9e9eb;
+  padding-top: 14px;
+  margin-top: 14px;
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  bottom: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.shopie_section {
+  padding-bottom: 5rem;
+}

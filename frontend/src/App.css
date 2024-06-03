@@ -1,0 +1,24 @@
+/* Basic Classes */
+@import url("./css/globle/common.css");
+@import url("./css/globle/reset.css");
+@import url("./css/globle/variables.css");
+@import url("./css/globle/scrollbar.css");
+
+/* Style Guide Classes */
+@import url("./css/guides/button.css");
+@import url("./css/guides/typography.css");
+@import url("./css/guides/fonts.css");
+
+/* Shared Pages Guide Classes */
+@import url("./css/pages/shared/header.css");
+@import url("./css/pages/shared/footer.css");
+@import url("./css/pages/shared/sideMenu.css");
+@import url("./css/pages/shared/profileMenu.css");
+
+/* Pages Design */
+@import url("./css/pages/landing/landing.css");
+@import url("./css/pages/Order/order.css");
+@import url("./css/pages/Order/cart.css");
+@import url("./css/pages/landing/store.css");
+@import url("./css/pages/carting/carting.css");
+@import url("./css/pages/profile/profile.css");

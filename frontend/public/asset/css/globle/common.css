@@ -1,0 +1,30 @@
+html {
+  scroll-behavior: smooth;
+}
+.body_bg_color {
+  background-color: #f1f3f6;
+}
+.mi_container {
+  display: block;
+  width: 100%;
+  max-width: 1680px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.null_space {
+  height: var(--header_height);
+}
+
+@media screen and (max-width: 586px) {
+  .mi_container {
+    display: block;
+    width: 100%;
+    max-width: 77rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  .null_space {
+    height: var(--header_mobile_height);
+  }
+}

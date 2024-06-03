@@ -1,0 +1,85 @@
+.order_container_list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.OrderCard__container {
+  width: 100%;
+  padding: 1.25rem;
+  border: 1px solid #eee;
+  display: flex;
+  flex-direction: column;
+}
+.OrderCard__info {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding-bottom: 1rem;
+}
+.OrderCard__food_info {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+}
+.OrderFood__banner {
+  width: 8rem;
+  height: 6rem;
+}
+.OrderFood__banner > img {
+  width: 8rem;
+  height: 6rem;
+  object-fit: cover;
+}
+
+.OrderFood__details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.OrderCard__time_info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.check__btn {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 1.5rem;
+  background-color: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.check__red {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 1.5rem;
+  background-color: rgb(243, 128, 6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.OrderCard__actions {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  padding-top: 0.5rem;
+  border-top: 1px dashed #eee;
+}
+.OrderCard__actions_info {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.OrderCard__actions_buttons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
